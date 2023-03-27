@@ -1,6 +1,6 @@
 # Algozenith
 
-This live version of the app can be found in [theprint.me](https://theprint.me)
+This live version of the app can be found in []()
 
 ### To run the development server:
 
