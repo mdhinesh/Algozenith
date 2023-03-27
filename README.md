@@ -1,6 +1,6 @@
 # Algozenith
 
-This live version of the app can be found in []()
+This live version of the app can be found in [algozenithdesign](https://algozenithdesign.vercel.app/)
 
 ### To run the development server:
 
