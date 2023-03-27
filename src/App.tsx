@@ -14,12 +14,13 @@ function App() {
 
         <div id='Hero_alltext_content'>
           <h1 id='heading_intro_text'>Be better at DSA & CP</h1>
-          <p id='Hero_text_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed accusamus quidem maiores beatae vel ratione culpa soluta dolorem!</p>
-          <div id='button_container'> 
-            <button className='join_btn_1'>Join now -{'>'}</button>
-            <button className='curriculum_btn'>View curriculum</button>
-          </div>
-          <div className='Hero_feature_div_container'>
+          <p id='Hero_text_p'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed quidem maiores beatae vel ratione culpa soluta dolorem!</p>
+          <div className="mobile_view_reverse">
+            <div id='button_container'> 
+              <button className='join_btn_1'>Join now -{'>'}</button>
+              <button className='curriculum_btn'>View curriculum</button>
+            </div>
+            <div className='Hero_feature_div_container'>
             <div className='Hero_feature_div_1'>
               <div className='Hero_feature_div_1_subdiv'>
                 <div className="Hero_feature_list_icon"></div>
@@ -41,9 +42,10 @@ function App() {
               </div>
             </div>
           </div>
+          </div>
         </div>
 
-        <div>
+        <div id='logo_container'>
           <img id='logo' src={logo} alt="hero" />
         </div>
 
@@ -52,8 +54,8 @@ function App() {
       <div className='pricing_container'>
 
         <div className='pricing_details_div'>
-          <h1 id='pricing_intro_text'>Invest in skills,<br/> <span className='highlightened_text'>earn 10X</span> of what you <br />paid.</h1>
-          <p id='pricing_intro_text_p' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1 id='pricing_intro_text'>Invest in skills,<br/> <span className='highlightened_text'>earn 10X</span> of what you paid.</h1>
+          <p id='pricing_intro_text_p' ><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></p>
           <div className='pricing_feature_list_container'>
             <div className='pricing_feature_list_div_container'>
               <div className='pricing_feature_list_div'>
